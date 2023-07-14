@@ -1,0 +1,30 @@
+.nav-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(209, 59, 255);
+    height: 4.5rem;
+    padding: 0 4.5rem;
+}
+
+.nav-heading{
+    font-size: 40px;
+    /* font-weight: 500; */
+    color: #caffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-btn{
+    padding: 9px 20px;
+    border: 1px solid #caffff;
+    background-color: #caffff;
+    color: rgb(209, 59, 255);
+    font-weight: bold;
+    font-size: 1.125rem;
+
+}
+.nav-btn:hover{
+    background-color: #aafbfb;
+    transition: ease-in 0.5s;
+    cursor: pointer;
+}
